@@ -2,7 +2,6 @@ import React from 'react'
 import { Navigate } from 'react-router-dom';
 
 export default function Tab(props) {
-    console.log(props);
     return (
         <div className='tab'>
             {/* {props.active == "Yours" ? <Navigate to="/yours" replace /> :
